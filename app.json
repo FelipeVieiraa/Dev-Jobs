@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "niceJobs",
-    "slug": "niceJobs",
+    "name": "Dev Jobs",
+    "slug": "Dev-Jobs",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#416FD9"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,7 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8468327217712406~4670003092"
+      },
+      "bundleIdentifier": "com.felipevieira.devjobs"
+    },
+    "android": {
+      "package": "com.felipevieira.devjobs",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8468327217712406~4670003092"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
